@@ -106,13 +106,13 @@
 
 ## 🔍 Инференс
 
- Обработанные видео лежат в папке /inference
+- Обработанные видео лежат в папке /inference
 
  ---
 
 ## Видео
 
-Видео без обработки лежат в /test_videos
+- Видео без обработки лежат в /test_videos
 
 ---
 
@@ -138,13 +138,13 @@
 
 ### ONNX
 
-/code/convert_to_onnx.py
+- /code/convert_to_onnx.py
 
 
 ### TensorRT (на хосте с CUDA)
 
-/code/convert_to_engine.py
-/tensorRT в ней лежит файл tensorRT.ipynb, в котором показано пошаговое решение данной задачи
+- /code/convert_to_engine.py
+- /tensorRT в ней лежит файл tensorRT.ipynb, в котором показано пошаговое решение данной задачи
 
 **Замер скорости**
 Проводилось на видеофайле inference1_without_yolo.MP4
